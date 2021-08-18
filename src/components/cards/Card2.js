@@ -12,9 +12,7 @@ function Card2(props) {
         {data.map((card) => {
         return (
           <div className="cards" onClick={props.onMouseClick} onDoubleClick={() => setShowImage(!showImage)}>
- 
             <img src={card.image} alt={card.title} />
-
             <div className= {props.isVisible ? "card_over2" : "card_over2_no"}>
             </div>
           </div>

@@ -7,7 +7,7 @@ import "./App.css";
 
 
 const App = () => {
-  const [isVisible, setisVisible] = useState(false);
+  const [isVisible, setisVisible] = useState(true);
 
   const onMouseClick = () => {
     setisVisible(!isVisible)
