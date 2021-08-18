@@ -1,7 +1,8 @@
 /* import React, { useState } from "react";
 import { data } from "../../helpers/Data";
 import "./Card.css";
-function Card(props) {
+
+function Card() {
   return (
     <div className="card-container">
       {data.map((card) => {
@@ -33,7 +34,7 @@ function Card() {
       {showImage 
       ? (
         <>
-          {data.map((card) => {
+          {data.map(() => {
             return (
               <div className="cards" key={card.id} onClick={() => setShowImage(!showImage)}>
                 <img src={card.image} alt={card.title} />

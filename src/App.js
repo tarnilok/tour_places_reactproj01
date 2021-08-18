@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import Header from "./components/header/Header";
 import Navbar from "./components/navbar/Navbar";
 import Card from "./components/cards/Card";
+import Card2 from "./components/cards/Card2";
 import "./App.css";
 
 
@@ -15,7 +16,8 @@ const App = () => {
     <div className="App">
       <Navbar/>
       <Header/>
-      <Card isVisible={isVisible} onMouseClick={onMouseClick}/>
+      {/* <Card/> */}
+      <Card2 isVisible={isVisible} onMouseClick={onMouseClick}/>
     </div>
   )
 }
