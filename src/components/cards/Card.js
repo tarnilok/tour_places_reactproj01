@@ -44,7 +44,7 @@ function Card() {
         <>
           {data.map((card) => {
             return (
-              <div className="cards" key={card.id}>
+              <div className="cards" key={card.id} onClick={() => setShowImage(!showImage)}>
                 <div className="title">
                   <h2>{card.title}</h2>
                 </div>

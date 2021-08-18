@@ -20,14 +20,19 @@
     color: white;
     font-family: 'Amatic SC', cursive;
     font-size: 36px;
-    padding: 1rem;
+    /* padding: 1rem; */
+}
+
+h2 {
+    margin: 0;
+
 }
 
 .cards img {
-    object-fit: cover;
+    object-fit: cover; /*??? aynı gibi*/
     height: 350px;
     width: 500px;
-    filter: grayscale(0%);
+    filter: grayscale(0%); /*siyah beyaz hover*/
 }
 
 .cards img:hover {
@@ -43,7 +48,7 @@
     right: 0;
     padding: 1rem;
     transform: translateY(100%);
-    transition: transform .7s ease-in-out;
+    transition: transform .7s ease-in-out; /*girip çıkana kadar */
 }
 
 .cards:hover .card_over {
