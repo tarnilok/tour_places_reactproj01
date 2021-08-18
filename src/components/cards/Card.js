@@ -27,10 +27,11 @@ import React, { useState } from "react";
 import { data } from "../../helpers/Data";
 import "./Card.css";
 function Card() {
-  const [showImage, setShowImage] = useState(true);
+  const [showImage, setShowImage] = useState(false);
   return (
     <div className="card-container" >
-      {showImage ? (
+      {showImage 
+      ? (
         <>
           {data.map((card) => {
             return (
@@ -40,7 +41,8 @@ function Card() {
             );
           })}
         </>
-      ) : (
+      ) 
+      : (
         <>
           {data.map((card) => {
             return (
