@@ -30,11 +30,11 @@ import "./Card.css";
 function Card() {
   const [showImage, setShowImage] = useState(false);
   return (
-    <div className="card-container" >
+    <div className="card-container">
       {showImage 
       ? (
         <>
-          {data.map(() => {
+          {data.map((card) => {
             return (
               <div className="cards" key={card.id} onClick={() => setShowImage(!showImage)}>
                 <img src={card.image} alt={card.title} />
