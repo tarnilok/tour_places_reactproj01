@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/tour_places_reactproj01/static/css/main.2a859e68.chunk.css",
-    "main.js": "/tour_places_reactproj01/static/js/main.891f2c3a.chunk.js",
-    "main.js.map": "/tour_places_reactproj01/static/js/main.891f2c3a.chunk.js.map",
+    "main.js": "/tour_places_reactproj01/static/js/main.c7c288a7.chunk.js",
+    "main.js.map": "/tour_places_reactproj01/static/js/main.c7c288a7.chunk.js.map",
     "runtime-main.js": "/tour_places_reactproj01/static/js/runtime-main.cc1f6f36.js",
     "runtime-main.js.map": "/tour_places_reactproj01/static/js/runtime-main.cc1f6f36.js.map",
     "static/js/2.3c816766.chunk.js": "/tour_places_reactproj01/static/js/2.3c816766.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.cc1f6f36.js",
     "static/js/2.3c816766.chunk.js",
     "static/css/main.2a859e68.chunk.css",
-    "static/js/main.891f2c3a.chunk.js"
+    "static/js/main.c7c288a7.chunk.js"
   ]
 }
